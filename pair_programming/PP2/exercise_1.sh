@@ -14,7 +14,7 @@ fi
 git commit -m $commit_msg
 git status
 read -r -p "Continue?(Y/N)" continue_yn
-if ["$continue_yn"="Y"]; then
+if [ "$continue_yn"="Y" ]; then
 	git push
 fi
 
