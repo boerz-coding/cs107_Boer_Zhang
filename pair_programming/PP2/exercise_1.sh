@@ -1,5 +1,5 @@
 #!/bin/bash
-read -r -p "What file?" name
+read -r -p "Which file to add?" name
 echo "$name"
 git add $name
 git status
@@ -9,5 +9,11 @@ if [ "continue_yn"="Y"]; then
 elif [ "continue_yn"="N"]; then
 	exit 1
 fi
-git commit -$commit_msg
+git commit -m $commit_msg
 git status
+read -r -p "Continue?(Y/N)" continue_yn
+if ["continue_yn"="Y"]; then
+	git push
+fi
+
+
