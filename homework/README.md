@@ -1,6 +1,6 @@
 # Homework Directory
 ## Updated Sep 12 2020 for HW1-P4
-### Learning Lists
+### Learning List
 1. I have just finished my P2 and P3
   * Spent more time than imagined
   * But learned a lot
