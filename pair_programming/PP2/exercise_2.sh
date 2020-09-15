@@ -1,4 +1,7 @@
 #!/bin/bash
+#sharer:Blake
+#coder: Zhufeng
+#Listener: Boer and Little
 #echo "$( ls )"
 for name in $( ls )
 do
