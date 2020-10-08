@@ -22,6 +22,3 @@ Trace:
 | $x_6$   | $x_1 + x_2$   |     2      | $\dot{x_1} + \dot{x_2}$ |       1     |       1      |
 | $x_7$   | $exp(x_6)$    |   $exp(2)$ | $\dot{x_6} exp(x_6)$    |   $exp(2)$  |   $exp(2)$   |
 
-$D_p x_7 = \frac{\partial{}x_7}{\partial{}x_1} p_1 + \frac{\partial{}x_7}{\partial{}x_2} p_2$
-
-$D_p x_7 = (\frac{\partial{}x_7}{\partial{}x_6} \frac{\partial{}x_6}{\partial{}x_1}) p_1 + (\frac{\partial{}x_7}{\partial{}x_6} \frac{\partial{}x_6}{\partial{}x_2}) p_2$
