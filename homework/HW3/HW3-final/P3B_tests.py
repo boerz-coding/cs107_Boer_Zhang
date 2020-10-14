@@ -1,6 +1,8 @@
 from Bank import *
 def test_over_withdrawal(): #this test function should throw an Exception or Error 
+
     user = BankUser("Joe");
+    print("Test __str__() 0:", user.__str__())
     user.addAccount(AccountType.SAVINGS);
     user.deposit(AccountType.SAVINGS, 10);
 

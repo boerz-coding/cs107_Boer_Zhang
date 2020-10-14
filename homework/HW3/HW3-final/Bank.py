@@ -75,7 +75,7 @@ class BankUser():
         str_accounts+=", "
       str_accounts+=key
     if not str_accounts:
-      str_accounts="not exist."
+      str_accounts="not exist"
     return f"Owner: {self.owner}; Accounts: {str_accounts}."
 
   
