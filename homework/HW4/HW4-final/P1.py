@@ -17,7 +17,7 @@ plt.plot(x,ffdh1(x),label=r'$h=1\times 10^{-1}$')
 plt.plot(x,ffdh2(x),label=r'$h=1\times 10^{-7}$')
 plt.plot(x,ffdh3(x),label=r'$h=1\times 10^{-15}$')
 plt.xlabel('x')
-plt.ylabel('y')
+plt.ylabel('Derivatives')
 plt.legend()
 print("Answer to Q-a: h=1e-7 most closely approximates \
 the true derivatives. When h is too small, the numerical derivative becomes \
