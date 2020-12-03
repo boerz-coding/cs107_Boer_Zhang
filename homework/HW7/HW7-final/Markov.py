@@ -69,7 +69,7 @@ class MarkovIterator:
         return self
     def __next__(self):
         #print("cweather", self.cweather_num)
-        if(self.nit>=20):
+        if(self.nit>=9999):
             raise StopIteration()
         self.cweather_num=random.choices([0,1,2,3,4,5],weights=[self.get_prob(weather_array[self.cweather_num],weather_array[i]) for i in range(0,6)])[0] #[0]means converting single element list to a single number
         
